@@ -1,5 +1,5 @@
 body {
-    background-color: lavenderblush;
+    background-color: #fff0f5;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -55,7 +55,7 @@ h1 {
     justify-content: center;
     /* float: right; */
     position: fixed;
-    top: 12rem;
+    top: 11.5rem;
     left: 0rem;
     padding: 1rem;
     text-transform: uppercase;
@@ -63,6 +63,17 @@ h1 {
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 20px;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
     font-weight: bold;
 }
 
@@ -89,4 +100,54 @@ h2 {
     margin: 0rem -1rem 0rem -1rem;
     font-weight: bold;
     font-size: 2rem;
+}
+
+.breakfastHead {
+    background-image: url("images/1.2.png");
+    background-color: black;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+.lunchHead {
+    background-image: url("images/2.2.png");
+    background-color: black;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+.snackHead {
+    background-image: url("images/3.2.png");
+    background-color: black;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+.dinnerHead {
+    background-image: url("images/4.2.png");
+    background-color: black;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+.dessertHead {
+    background-image: url("images/5.2.png");
+    background-color: black;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
 }
