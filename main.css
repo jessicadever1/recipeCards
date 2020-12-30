@@ -1,0 +1,92 @@
+body {
+    background-color: lavenderblush;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imgAndTitleAlign {
+    display: flex;
+}
+
+.headshot {
+    border-radius: 50%;
+    margin: .5rem .5rem 1rem .5rem;
+    padding: .5rem;
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+.titleAndSubtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navBar {
+    background-color: rgb(236, 201, 213);
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1.5rem 2rem 2rem 2rem;
+    margin: 0rem -1rem 0rem -1rem;
+    text-transform: uppercase;
+    color: lavenderblush;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    padding: 3rem 2rem 1rem 2rem;
+    font-size: 4rem;
+}
+
+.subtitle {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+}
+
+.homeNav {
+    display: flex;
+    justify-content: center;
+    /* float: right; */
+    position: fixed;
+    top: 12rem;
+    left: 0rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    text-align: center;
+    background-color: white;
+    padding: 1.5rem 2rem 2rem 2rem;
+    margin: 0rem -1rem 0rem -1rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: rgb(211, 166, 182);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem 2rem 0rem 2rem;
+    margin: 0rem -1rem 0rem -1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
