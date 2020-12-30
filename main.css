@@ -102,6 +102,11 @@ a:hover {
     border: white solid 2px;
 }
 
+.miniVeganIconPic, .miniVegetarianIconPic, .miniWhole30IconPic, .miniFiveHundIconPic {
+    width: 3rem;
+    border: white solid 2px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -114,6 +119,10 @@ footer {
     margin: 0rem -1rem 0rem -1rem;
     color: black;
     font-size: 1.5rem;
+}
+
+input {
+    border: none;
 }
 
 .recipeForm {
@@ -216,4 +225,48 @@ h2 {
     padding: 2rem 4rem;
     margin-left: -2rem;
     margin-right: -2rem;
+}
+
+.recipeNameDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.recipeName {
+    display: flex;
+    justify-content: right;
+    margin-bottom: .5rem;
+}
+
+.recipeNameInput {
+    min-height: 2.5rem;
+    max-width: 25rem;
+}
+
+.recipeTypeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.mealSelectTitle {
+    display: flex;
+    justify-content: right;
+    margin-bottom: .5rem;
+}
+
+select {
+    border: none;
+    margin-top: .0rem;
+    min-height: 2.5rem;
+    max-width: 25rem;
+}
+
+.iconSelect {
+    background-color: white;
+    max-width: 25rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
