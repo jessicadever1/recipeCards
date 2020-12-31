@@ -1,5 +1,7 @@
+/* Homepage CSS */
 body {
-    background-color: #fff0f5;
+    background-color: rgb(245, 202, 195);
+    /* background-color: #fff0f5; */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -13,6 +15,7 @@ body {
     padding: .5rem;
     max-width: 15rem;
     max-height: 15rem;
+    /* border: rgb(132, 165, 157) solid .25rem; */
 }
 
 .titleAndSubtitle {
@@ -22,7 +25,8 @@ body {
 
 
 .navBar {
-    background-color: rgb(236, 201, 213);
+    background-color: rgb(242, 132, 130);
+    /* background-color: rgb(236, 201, 213); */
     display: flex;
     font-size: 1.5rem;
     justify-content: space-evenly;
@@ -30,7 +34,8 @@ body {
     padding: 1.5rem 2rem 2rem 2rem;
     margin: 0rem -1rem 0rem -1rem;
     text-transform: uppercase;
-    color: lavenderblush;
+    /* color: lavenderblush; */
+    color: rgb(132, 165, 157);
 }
 
 h1 {
@@ -38,8 +43,9 @@ h1 {
     justify-content: center;
     margin-left: 1.5rem;
     margin-bottom: 0;
-    padding: 3rem 2rem 1rem 2rem;
-    font-size: 4rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 5rem;
+    color: rgb(132, 165, 157);
 }
 
 .subtitle {
@@ -50,31 +56,31 @@ h1 {
     margin-left: 1rem;
 }
 
-.homeNav {
-    display: flex;
-    justify-content: center;
-    /* float: right; */
-    position: fixed;
-    top: 11.5rem;
-    left: 0rem;
-    padding: 1rem;
-    text-transform: uppercase;
-    background-color: white;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 a:link, a:visited {
-    color: black;
+    color: rgb(246, 189, 96);
+    /* color: black; */
     font-weight: normal;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: rgb(246, 189, 96);
+    /* color: black; */
     font-weight: bold;
+    font-size: larger;
+}
+
+.bannerPic {
+    display: flex;
+    justify-content: center;
+    /* margin-left: -2rem;
+    margin-right: -20rem; */
+    /* max-height: 40rem; */
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
+    z-index: 0;
 }
 
 .backgroundSection {
@@ -97,6 +103,28 @@ a:hover {
     margin: 1.5rem;
 }
 
+.recipeNameDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.topOfRecipeForm {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.topLeftOfRecipeForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.topRightOfRecipeForm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 .veganIconPic, .vegetarianIconPic, .whole30IconPic, .fiveHundIconPic {
     width: 16rem;
     border: white solid 2px;
@@ -105,16 +133,24 @@ a:hover {
 .miniVeganIconPic, .miniVegetarianIconPic, .miniWhole30IconPic, .miniFiveHundIconPic {
     width: 3rem;
     border: white solid 2px;
+    margin: .25rem;
 }
 
-footer {
+.radioCSS {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.iconRadio {
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 .background {
     text-align: center;
-    background-color: lavenderblush;
+    
+    /* background-color: lavenderblush; */
     padding: 1.5rem 2rem 2rem 2rem;
     margin: 0rem -1rem 0rem -1rem;
     color: black;
@@ -127,21 +163,27 @@ input {
 
 .recipeForm {
     text-align: center;
-    background-color: lavenderblush;
-    padding: 1.5rem 2rem 2rem 2rem;
+    background-color: rgb(245, 202, 195);
+    /* background-color: lavenderblush; */
+    padding: 1.5rem 4rem 2rem 4rem;
     margin: 0rem -1rem 0rem -1rem;
     color: black;
     font-size: 1.5rem;
 }
 
 .recipeFormTitle {
-    background-color: lavenderblush;
+    background-color: rgb(245, 202, 195);
+    /* background-color: lavenderblush; */
 }
 .backgroundTitle {
-    color: rgb(211, 166, 182);
+    /* color: rgb(211, 166, 182); */
+    color: rgb(247, 237, 226);
+    /* color: white; */
+    /* color: rgb(246, 189, 96); */
     display: flex;
     justify-content: center;
-    background-color: lavenderblush;
+    background-color: rgb(245, 202, 195);
+    /* background-color: lavenderblush; */
     padding: 2rem 2rem 0rem 2rem;
     margin: .5rem -1rem 0rem -1rem;
     font-weight: bold;
@@ -149,9 +191,11 @@ input {
 }
 
 h2 {
-    color: rgb(211, 166, 182);
+    color: rgb(242, 132, 130);
+    /* color: rgb(211, 166, 182); */
     display: flex;
     justify-content: center;
+    /* background-color:  rgb(247, 237, 226); */
     background-color: white;
     padding: 2rem 2rem 0rem 2rem;
     margin: 0rem -1rem 0rem -1rem;
@@ -159,66 +203,6 @@ h2 {
     font-size: 2rem;
 }
 
-.bannerPic {
-    display: flex;
-    justify-content: center;
-    margin-left: -2rem;
-    margin-right: -2rem;
-    max-height: 40rem;
-    flex-grow: 10;
-    flex-shrink: 1;
-    flex-basis: auto;
-}
-
-.breakfastHead {
-    background-image: url("images/1.2.png");
-    background-color: black;
-    height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2rem;
-}
-
-.lunchHead {
-    background-image: url("images/2.2.png");
-    background-color: black;
-    height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2rem;
-}
-
-.snackHead {
-    background-image: url("images/3.2.png");
-    background-color: black;
-    height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2rem;
-}
-
-.dinnerHead {
-    background-image: url("images/4.2.png");
-    background-color: black;
-    height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2rem;
-}
-
-.dessertHead {
-    background-image: url("images/5.2.png");
-    background-color: black;
-    height: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -2rem;
-}
 
 .iconDefinitions {
     background-color: white;
@@ -241,7 +225,12 @@ h2 {
 
 .recipeNameInput {
     min-height: 2.5rem;
-    max-width: 25rem;
+    width: 95%;
+    /* min-width: 25rem; */
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    margin-right: 1rem;
 }
 
 .recipeTypeDiv {
@@ -256,17 +245,168 @@ h2 {
     margin-bottom: .5rem;
 }
 
-select {
-    border: none;
+.mealSelect {
+    /* border: none; */
     margin-top: .0rem;
+    margin-right: 1rem;
+    min-height: 2.70rem;
+    /* min-width: 25.5rem; */
+    width: 97%;
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+}
+
+.recipeIngredientsDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5rem;
+}
+
+.recipeIngredients {
+    /* color:rgb(242, 132, 130); */
+    margin-bottom: .25rem;
+    margin-top: 1.5rem;
+}
+
+.ingredientInputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipeIngredients__quantity {
+    /* margin-top: .0rem; */
+    margin: 0rem .25rem 0rem .25rem;
+    max-height: 2.70rem;
+    width: 23%;
+    /* min-width: 25.5rem; */
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+}
+
+.recipeIngredients__unit {
+    margin: 0rem .25rem 0rem .25rem;
+    max-height: 2.70rem;
+    width: 23%;
+    /* min-width: 25.5rem; */
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+}
+
+.recipeIngredients__ingredient {
     min-height: 2.5rem;
-    max-width: 25rem;
+    width: 23%;
+    /* min-width: 25rem; */
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    margin: 0rem .25rem 0rem .25rem;
+}
+
+.recipeIngredients__brand {
+    min-height: 2.5rem;
+    width: 23%;
+    /* min-width: 25rem; */
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    margin: 0rem .25rem 0rem .25rem;
 }
 
 .iconSelect {
     background-color: white;
-    max-width: 25rem;
+    width: 100%;
+    /* min-width: 22.5rem; */
     padding: 1rem;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+    margin: 5rem .25rem 1rem .25rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Recipe Pages */
+
+.homeNav {
+    display: flex;
+    justify-content: center;
+    /* float: right; */
+    position: fixed;
+    top: 11.5rem;
+    left: 0rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 165, 157);
+}
+
+.breakfastHead {
+    background-image: url("images/1.2.png");
+    background-color: black;
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.lunchHead {
+    background-image: url("images/2.2.png");
+    background-color: black;
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.snackHead {
+    background-image: url("images/3.2.png");
+    background-color: black;
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.dinnerHead {
+    background-image: url("images/4.2.png");
+    background-color: black;
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.dessertHead {
+    background-image: url("images/5.2.png");
+    background-color: black;
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
 }

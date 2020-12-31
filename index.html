@@ -77,38 +77,70 @@
                 </section>
 
                 <section class="recipeForm">
-                    
+                    <h2 class="recipeFormTitle">Add A Recipe</h2>
                     <div class="form">
-                        <h2 class="recipeFormTitle">Add A Recipe</h2>
-                        <div class="recipeNameDiv">
-                            <h3 class="recipeName">Recipe Name</h3>
-                            <input type="text" class="recipeNameInput"></input>
-                        <div>
-                        <div class="recipeTypeDiv">
-                            <h3 class="mealSelectTitle">Select a meal</h3>
-                            <select>
-                                <ul>
-                                    <li class="breakfastSelect">Breakfast</li>
-                                    <li class="lunchSelect">Lunch</li>
-                                    <li class="snackSelect">Snack</li>
-                                    <li class="dinnerSelect">Dinner</li>
-                                    <li class="dessertSelect">Dessert</li>
-                                </ul>
-                            </select>
-                        </div>    
+                        <div class="topOfRecipeForm">
+                            <div class="topLeftOfRecipeForm">
+                                
+                                <div class="recipeNameDiv">
+                                    <h3 class="recipeName">Recipe Name</h3>
+                                    <input type="text" class="recipeNameInput"></input>
+                                </div>
+                                <div class="recipeTypeDiv">
+                                    <h3 class="mealSelectTitle">Select a meal</h3>
+                                    <select class="mealSelect">
+                                        <ul>
+                                            <li class="breakfastSelect">Breakfast</li>
+                                            <li class="lunchSelect">Lunch</li>
+                                            <li class="snackSelect">Snack</li>
+                                            <li class="dinnerSelect">Dinner</li>
+                                            <li class="dessertSelect">Dessert</li>
+                                        </ul>
+                                    </select>
+                                </div>
+                                    
+                            </div>    
+                            <div class="topRightOfRecipeForm">
+                                    <div class="iconSelect">
+                                    <div class="radioCSS">
+                                        <input class="iconRadio" type="radio">
+                                        <img src="images/vegan.png" alt="vegan icon" class="miniVeganIconPic">
+                                    </div>
+                                    <div class="radioCSS">   
+                                        <input class="iconRadio" type="radio">
+                                        <img src="images/vegetarian.png" alt="vegetarian icon" class="miniVegetarianIconPic">
+                                    </div> 
+                                    <div class="radioCSS">
+                                        <input class="iconRadio" type="radio">
+                                        <img src="images/whole30.png" alt="whole30 icon" class="miniWhole30IconPic">
+                                    </div>
+                                    <div class="radioCSS">
+                                        <input class="iconRadio" type="radio">
+                                        <img src="images/500.png" alt="500 call icon" class="miniFiveHundIconPic">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="recipeIngredientsDiv">
                             <h3 class="recipeIngredients">Ingredients</h3>
-                            <input type="text" placeholder="quantity">
-                            <input type="text" placeholder="Unit">
-                            <input type="text" placeholder="Ingredient Name">
-                            <input type="text" placeholder="Brand">
-                        </div>
-                        <div class="iconSelect">
-                            <input type="radio"><img src="images/vegan.png" alt="vegan icon" class="miniVeganIconPic">
-                            <input type="radio"><img src="images/vegetarian.png" alt="vegetarian icon" class="miniVegetarianIconPic">
-                            <input type="radio"><img src="images/whole30.png" alt="whole30 icon" class="miniWhole30IconPic">
-                            <input type="radio"><img src="images/500.png" alt="500 call icon" class="miniFiveHundIconPic">
-
+                            <div class="ingredientInputs">
+                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity">Quantity</select>
+                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
+                                <input class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
+                                <input class="recipeIngredients__brand" type="text" placeholder="Brand">
+                            </div>
+                            <div class="ingredientInputs">
+                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity">Quantity</select>
+                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
+                                <input class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
+                                <input class="recipeIngredients__brand" type="text" placeholder="Brand">
+                            </div>
+                            <div class="ingredientInputs">
+                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity">Quantity</select>
+                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
+                                <input class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
+                                <input class="recipeIngredients__brand" type="text" placeholder="Brand">
+                            </div>
                         </div>
                     </div>
 
