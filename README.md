@@ -25,4 +25,4 @@ DONE 3) Switch the unit imput to a select button (ranging from tsp to cup, for e
  
     a) save recipe card to appropriate meal page with all user-provided info
     
-8) get outer edges of recipe card elements to line up. I think padding will fix this.
+DONE 8) get outer edges of recipe card elements to line up. I think padding will fix this.
