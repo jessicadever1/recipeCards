@@ -99,9 +99,9 @@ a:hover {
     margin-left: 1.5rem;
 } */
 
-.h3 {
+/* .h3 {
     margin: 1.5rem;
-}
+} */
 
 .recipeNameDiv {
     display: flex;
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .veganIconPic, .vegetarianIconPic, .whole30IconPic, .fiveHundIconPic {
-    width: 16rem;
+    width: 100%;
     border: white solid 2px;
 }
 
@@ -134,6 +134,11 @@ a:hover {
     width: 3rem;
     border: white solid 2px;
     margin: .25rem;
+}
+
+.veganIcon, .vegetarianIcon, .whole30Icon, .fiveHundCalIcon {
+    width: 23%;
+    margin: 1rem;
 }
 
 .radioCSS {
@@ -177,9 +182,10 @@ input {
 }
 .backgroundTitle {
     /* color: rgb(211, 166, 182); */
-    color: rgb(247, 237, 226);
+    /* color: rgb(247, 237, 226); */
     /* color: white; */
     /* color: rgb(246, 189, 96); */
+    color:rgb(242, 132, 130);
     display: flex;
     justify-content: center;
     background-color: rgb(245, 202, 195);
@@ -203,7 +209,9 @@ h2 {
     font-size: 2rem;
 }
 
-
+figure {
+    margin: 0;
+}
 .iconDefinitions {
     background-color: white;
     padding: 2rem 4rem;
@@ -255,65 +263,72 @@ h2 {
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
+    color: gray;
+    font-size: 20px;
 }
 
 .recipeIngredientsDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
 }
 
 .recipeIngredients {
     /* color:rgb(242, 132, 130); */
-    margin-bottom: .25rem;
+    margin-bottom: 1.25rem;
     margin-top: 1.5rem;
 }
 
 .ingredientInputs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .recipeIngredients__quantity {
     /* margin-top: .0rem; */
     margin: 0rem .25rem 0rem .25rem;
     max-height: 2.70rem;
-    width: 23%;
+    width: 10%;
     /* min-width: 25.5rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
+    color: grey;
 }
 
 .recipeIngredients__unit {
     margin: 0rem .25rem 0rem .25rem;
     max-height: 2.70rem;
-    width: 23%;
+    width: 10%;
     /* min-width: 25.5rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
+    color: grey;
 }
 
 .recipeIngredients__ingredient {
     min-height: 2.5rem;
-    width: 23%;
+    width: 33%;
     /* min-width: 25rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
     margin: 0rem .25rem 0rem .25rem;
+    color: grey;
 }
 
 .recipeIngredients__brand {
     min-height: 2.5rem;
-    width: 23%;
+    width: 33%;
     /* min-width: 25rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
     margin: 0rem .25rem 0rem .25rem;
+    color: grey;
 }
 
 .iconSelect {
@@ -327,9 +342,50 @@ h2 {
     margin: 5rem .25rem 1rem .25rem;
 }
 
+.addAnotherIngredientButton {
+    color:rgb(132, 165, 157);
+    border:rgb(247, 237, 226) solid 1px;
+    min-width: 25%;
+    min-height: 3rem;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: 1rem;
+}
+
+.instructionsTextarea {
+    width: 95%;
+    min-height: 20rem;
+    margin: 2rem 0rem 2rem 0rem;
+    border: rgb(247, 237, 226) solid 1px;
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+    border-radius: 10px;
+}
+
+.selectRecipeButton {
+    color:rgb(132, 165, 157);
+    border:rgb(247, 237, 226) solid 1px;
+    min-width: 25%;
+    min-height: 3rem;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+button:hover {
+    color:rgb(132, 165, 157);
+    /* color: black; */
+    font-weight: bold;
+    /* font-size: larger; */
+}
+
 footer {
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 
 /* Recipe Pages */
