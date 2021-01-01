@@ -302,6 +302,7 @@ figure {
     justify-content: center;
 }
 
+
 .recipeIngredients__quantity {
     /* margin-top: .0rem; */
     margin: 0rem .25rem 0rem .25rem;
@@ -433,6 +434,25 @@ footer {
     margin-top: -4rem;
     margin-left: -1rem;
     margin-right: -1rem;
+}
+
+.recipeList {
+    background-color: white;
+    display: flex;
+    margin: 2rem 2rem 2rem 3.5rem;
+    padding: 1rem;
+}
+.recipeCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipeName {
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.fruitPizzaImg {
+    max-width: 25%;
 }
 
 .lunchHead {

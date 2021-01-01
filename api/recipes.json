@@ -8,6 +8,10 @@
             "vegetarian": "true",
             "whole30": "false",
             "500 Calories": "false",
+            "prepTime": "30 minutes",
+            "cookTime": "15 minutes",
+            "totalTime": "12 hours & 45 minutes",
+            "totalCalories": 445,
             "ingredients": [
                 {
                     "quantity": "1",
