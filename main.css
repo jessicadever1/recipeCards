@@ -225,6 +225,10 @@ figure {
     justify-content: right;
 }
 
+.recipeIngredients__quantity {
+    text-align: center;
+}
+
 .recipeName {
     display: flex;
     justify-content: right;
@@ -239,6 +243,8 @@ figure {
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
     margin-right: 1rem;
+    color: gray;
+    font-size: 20px;
 }
 
 .recipeTypeDiv {
@@ -274,10 +280,20 @@ figure {
     /* margin-left: 1.5rem; */
 }
 
-.recipeIngredients {
+.recipeIngredients__ingredient {
     /* color:rgb(242, 132, 130); */
     margin-bottom: 1.25rem;
     margin-top: 1.5rem;
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.recipeIngredients__brand {
+    /* color:rgb(242, 132, 130); */
+    margin-bottom: 1.25rem;
+    margin-top: 1.5rem;
+    color: lightgrey;
+    font-size: 20px;
 }
 
 .ingredientInputs {
