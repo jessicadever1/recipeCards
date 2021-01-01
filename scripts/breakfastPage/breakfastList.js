@@ -1,7 +1,7 @@
 import { copyOfRecipes, getRecipes, } from "../recipeDataProvider.js";
 import { breakfastRecipeHTMLConverter } from "./breakfastHTMLconverter.js"
 
-const contentElement = document.querySelector('.recipeList')
+const contentElement = document.querySelector('.breakfastRecipeList')
 // const eventHub = document.querySelector('.containsMainDiv')
 
 // eventHub.addEventListener("click", (clickEvent) => {

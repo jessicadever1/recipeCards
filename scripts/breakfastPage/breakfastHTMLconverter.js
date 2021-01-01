@@ -6,6 +6,7 @@ export const breakfastRecipeHTMLConverter = (recipe) => {
                 <div class="recipeCardContent">
                     <h2 class="recipeName" id="recipeName">${recipe.recipeName}</h2>
                     <p class="calorieCount" id="calorieCount">${recipe.totalCalories} Calories</p>
+                    <p class="servings" id="servings">Servings: ${recipe.servings}</p>
                     <p class="totalTime">Total Time: ${recipe.totalTime}</p>
                     <p class="rating">⭐⭐⭐⭐⭐</p>
                     <button class="toggleRecipeButton">See Full Recipe</button>

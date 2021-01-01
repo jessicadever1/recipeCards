@@ -719,13 +719,14 @@ footer {
     margin-top: -4rem;
 }
 
-.recipeList {
+.breakfastRecipeList {
     
     display: flex;
     flex-direction: column;
     margin: 2rem 2rem 2rem 3.5rem;
     padding: 1rem;
 }
+
 .recipeCard {
     background-color: white;
     display: flex;
@@ -787,6 +788,13 @@ footer {
     margin-left: -1rem;
     margin-right: -1rem;
     margin-top: -4rem;
+}
+
+.lunchRecipeList {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 2rem 3.5rem;
+    padding: 1rem;
 }
 
 
@@ -852,7 +860,12 @@ footer {
     margin-top: -4rem;
 }
 
-
+.dinnerRecipeList {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 2rem 3.5rem;
+    padding: 1rem;
+}
 
 
 
@@ -878,4 +891,11 @@ footer {
     margin-left: -1rem;
     margin-right: -1rem;
     margin-top: -4rem;
+}
+
+.dessertRecipeList {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 2rem 3.5rem;
+    padding: 1rem;
 }

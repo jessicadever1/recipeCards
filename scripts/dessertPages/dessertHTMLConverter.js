@@ -1,4 +1,4 @@
-export const dinnerRecipeHTMLConverter = (recipe) => {
+export const dessertRecipeHTMLConverter = (recipe) => {
     return `
         <section class="recipeCard" id="recipe--${recipe.id}">
             

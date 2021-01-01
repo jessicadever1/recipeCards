@@ -9,6 +9,7 @@
             "vegetarian": "true",
             "whole30": "false",
             "500 Calories": "false",
+            "servings": 16,
             "prepTime": "30 minutes",
             "cookTime": "15 minutes",
             "totalTime": "12 hours & 45 minutes",
@@ -39,6 +40,7 @@
             "vegetarian": "true",
             "whole30": "false",
             "500 Calories": "true",
+            "servings": 3,
             "prepTime": "20 minutes",
             "cookTime": "45 minutes",
             "totalTime": "1 hour & 5 minutes",
@@ -118,6 +120,128 @@
                 } 
                 ],
             "instructions": "Combine all ingredients, except cheese and coconut milk, on medium heat. Increase to medium high heat to bring to boil. Reduce to simmer for 45 minutes. Add coconut milk and parm cheese. Enjoy!"
+        },
+
+        {
+            "id": 2,
+            "imgName": "olivePizza",
+            "recipeName": "Vegetarian Pizza with Olives",
+            "mealType": "Lunch",
+            "vegan": "false",
+            "vegetarian": "true",
+            "whole30": "false",
+            "500 Calories": "true",
+            "prepTime": "2 hours",
+            "cookTime": "25 minutes",
+            "totalTime": "1 hour & 5 minutes",
+            "servings": 3,
+            "totalCalories": 467,
+            "ingredients": [
+                {
+                    "quantity": "1 1/2",
+                    "unit": "cup",
+                    "name": "Flour",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1 1/2",
+                    "unit": "teaspoon",
+                    "name": "Yeast",
+                    "brand": "Fleischmann's"
+                },
+                {
+                    "quantity": "8",
+                    "unit": "oz",
+                    "name": "Tomato Sauce",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "name": "Powdered Garlic",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "name": "Sale",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1/2",
+                    "unit": "teaspoon",
+                    "name": "Black Pepper",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "name": "Italian Seasoning",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "5",
+                    "unit": "oz",
+                    "name": "Extra Firm Tofu",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "3/4",
+                    "unit": "cup",
+                    "name": "Fiesta Blend Shredded Cheese",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "2",
+                    "unit": "oz",
+                    "name": "Black Olives",
+                    "brand": "Great Value"
+                }
+                ],
+            "instructions": "Combine yeast and flour. Add 1/2 cup of hot water and stir with fork until mixture becomes dough-like. Kneed dough for 10 minutes. Set aside in a bowl, loosely covered with plastic wrap for 1 hour. Kneed for 5 minutes. Set aside again for 30 minutes. Preheat oven to 375 degrees. Divide dough into three equal parts and mold into mini-pizza shape. Add sauce and spices. Break tofu into pieces and add on top of sauce. Add Cheese. Cut olives into halfs or thirds and add on top. Pre-cook each for 15 minutes. Refrigerate for up to a week. When eating heat up in oven at 375 degrees for 20-30 minutes."
+        },
+
+        {
+            "id": 4,
+            "imgName": "mousse",
+            "recipeName": "Chocolate Mousse",
+            "mealType": "Dessert",
+            "vegan": "false",
+            "vegetarian": "true",
+            "whole30": "false",
+            "500 Calories": "true",
+            "prepTime": "5 minutes",
+            "cookTime": "",
+            "totalTime": "5 minutes",
+            "servings": 1,
+            "totalCalories": 494,
+            "ingredients": [
+                {
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "name": "Heavy Whipping Cream",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1 1/2",
+                    "unit": "Tablespoon",
+                    "name": "Cocoa Powder",
+                    "brand": "Hershey's"
+                },
+                {
+                    "quantity": "2 1/2",
+                    "unit": "Tablespoon",
+                    "name": "Powdered Sugar",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1/8",
+                    "unit": "teaspoon",
+                    "name": "Vanilla Extract",
+                    "brand": "Great Value"
+                }
+                ],
+            "instructions": "Chill medium size bowl for five minutes. Add the whipping cream to the bowl and mix for about five more minutes until cream is thick and frothy. Add powdered sugar, cocoa powder and vanilla extract. Whip together until smooth and evenly mixed. Serve immediately or refrigerate!"
         }
         
     ]
