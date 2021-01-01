@@ -10,12 +10,12 @@ body {
 }
 
 .headshot {
+    /* border: rgb(132, 165, 157) solid .25rem; */
     border-radius: 50%;
     margin: .5rem .5rem 1rem .5rem;
-    padding: .5rem;
     max-width: 15rem;
     max-height: 15rem;
-    /* border: rgb(132, 165, 157) solid .25rem; */
+    padding: .5rem;
 }
 
 .titleAndSubtitle {
@@ -24,26 +24,26 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    margin-left: 1.5rem;
-    margin-bottom: 0;
-    padding: 2rem 2rem 1rem 2rem;
-    font-size: 5rem;
     color: rgb(132, 165, 157);
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 h2 {
-    color: rgb(242, 132, 130);
-    /* color: rgb(211, 166, 182); */
-    display: flex;
-    justify-content: center;
-    /* background-color:  rgb(247, 237, 226); */
     background-color: white;
-    padding: 2rem 2rem 0rem 2rem;
-    margin: 0rem -1rem 0rem -1rem;
-    font-weight: bold;
+    /* background-color:  rgb(247, 237, 226); */
+    /* color: rgb(211, 166, 182); */
+    color: rgb(242, 132, 130);
+    display: flex;
     font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 0rem -1rem 0rem -1rem;
+    padding: 2rem 2rem 0rem 2rem;
 }
 
 .subtitle {
@@ -97,30 +97,30 @@ h2 {
 .navBar {
     background-color: rgb(242, 132, 130);
     /* background-color: rgb(236, 201, 213); */
+    /* color: lavenderblush; */
+    color: rgb(132, 165, 157);
     display: flex;
     font-size: 1.5rem;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 1.5rem 2rem 2rem 2rem;
     margin: 0rem -1rem 0rem -1rem;
+    padding: 1.5rem 2rem 2rem 2rem;
     text-transform: uppercase;
-    /* color: lavenderblush; */
-    color: rgb(132, 165, 157);
 }
 
 
 a:link, a:visited {
-    color: rgb(246, 189, 96);
     /* color: black; */
+    color: rgb(246, 189, 96);
     font-weight: normal;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(246, 189, 96);
     /* color: black; */
-    font-weight: bold;
+    color: rgb(246, 189, 96);
     font-size: larger;
+    font-weight: bold;
 }
 
 
@@ -164,13 +164,13 @@ a:hover {
 
 .bannerPic {
     display: flex;
+    flex-basis: auto;
+    flex-grow: 10;
+    flex-shrink: 1;
     justify-content: center;
     /* margin-left: -2rem;
     margin-right: -20rem; */
     /* max-height: 40rem; */
-    flex-grow: 10;
-    flex-shrink: 1;
-    flex-basis: auto;
     width: 100%;
     z-index: 0;
 }
@@ -213,35 +213,34 @@ a:hover {
 /* About (aka a little bit of Background) Section CSS */
 
 .backgroundTitle {
+    background-color: rgb(245, 202, 195);
+    /* background-color: lavenderblush; */
     /* color: rgb(211, 166, 182); */
     /* color: rgb(247, 237, 226); */
     /* color: white; */
     /* color: rgb(246, 189, 96); */
     color:rgb(242, 132, 130);
     display: flex;
+    font-size: 2rem;
+    font-weight: bold;
     justify-content: center;
-    background-color: rgb(245, 202, 195);
-    /* background-color: lavenderblush; */
     padding: 2rem 2rem 0rem 2rem;
     margin: .5rem -1rem 0rem -1rem;
-    font-weight: bold;
-    font-size: 2rem;
 }
 
 
 .backgroundSection {
-    padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .background {
-    text-align: center;
-    
     /* background-color: lavenderblush; */
-    padding: 1.5rem 2rem 2rem 2rem;
-    margin: 0rem -1rem 0rem -1rem;
     color: black;
     font-size: 1.5rem;
+    margin: 0rem -1rem 0rem -1rem;
+    padding: 1.5rem 2rem 2rem 2rem;
+    text-align: center;
 }
 
 
@@ -282,9 +281,9 @@ a:hover {
 /* Icon & Their Meaning Section */
 .iconDefinitions {
     background-color: white;
-    padding: 2rem 4rem;
     margin-left: -2rem;
     margin-right: -2rem;
+    padding: 2rem 4rem;
 }
 
 .allIcons {
@@ -297,14 +296,14 @@ figure {
 }
 
 .veganIconPic, .vegetarianIconPic, .whole30IconPic, .fiveHundIconPic {
-    width: 100%;
     border: white solid 2px;
+    width: 100%;
 }
 
 
 .veganIcon, .vegetarianIcon, .whole30Icon, .fiveHundCalIcon {
-    width: 23%;
     margin: 1rem;
+    width: 23%;
 }
 /* p {
     max-width: 75%;
@@ -355,13 +354,13 @@ figure {
 
 /* Recipe Form Section */
 .recipeForm {
-    text-align: center;
     background-color: rgb(245, 202, 195);
     /* background-color: lavenderblush; */
-    padding: 1.5rem 4rem 2rem 4rem;
-    margin: 0rem -1rem 0rem -1rem;
     color: black;
     font-size: 1.5rem;
+    margin: 0rem -1rem 0rem -1rem;
+    padding: 1.5rem 4rem 2rem 4rem;
+    text-align: center;
 }
 
 .recipeFormTitle {
@@ -375,15 +374,15 @@ input {
 
 .topOfRecipeForm {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .topLeftOfRecipeForm {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 50%;
 }
 
 .recipeNameDiv {
@@ -404,15 +403,15 @@ input {
 }
 
 .recipeNameInput {
-    min-height: 2.5rem;
-    width: 95%;
-    /* min-width: 25rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
-    margin-right: 1rem;
     color: gray;
     font-size: 20px;
+    margin-right: 1rem;
+    min-height: 2.5rem;
+    /* min-width: 25rem; */
+    width: 95%;
 }
 
 .recipeTypeDiv {
@@ -428,29 +427,29 @@ input {
 }
 
 .mealSelect {
+    background-color: white;
     /* border: none; */
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 20px;
     margin-top: .0rem;
     margin-right: 1rem;
     min-height: 2.70rem;
     /* min-width: 25.5rem; */
     width: 97%;
-    background-color: white;
-    border: rgb(247, 237, 226) solid 1px;
-    border-radius: 10px;
-    color: gray;
-    font-size: 20px;
 }
 
 .topRightOfRecipeForm {
-    width: 50%;
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 .miniVeganIconPic, .miniVegetarianIconPic, .miniWhole30IconPic, .miniFiveHundIconPic {
-    width: 3rem;
     border: white solid 2px;
     margin: .25rem;
+    width: 3rem;
 }
 
 .radioCSS {
@@ -460,8 +459,8 @@ input {
 }
 
 .iconRadio {
-    margin-left: 1.5rem;
     margin-bottom: .5rem;
+    margin-left: 1.5rem;
 }
 
 .recipeIngredientsDiv{
@@ -478,103 +477,103 @@ input {
 }
 
 .recipeIngredients__quantity {
-    /* margin-top: .0rem; */
-    margin: 0rem .25rem 0rem .25rem;
-    max-height: 2.70rem;
-    width: 10.5%;
-    /* min-width: 25.5rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
     color: grey;
+    margin: 0rem .25rem 0rem .25rem;
+    /* margin-top: .0rem; */
+    max-height: 2.70rem;
+    /* min-width: 25.5rem; */
     text-align: center;
+    width: 10.5%;
 }
 
 .recipeIngredients__unit {
-    margin: 0rem .25rem 0rem .25rem;
-    max-height: 2.70rem;
-    width: 10.5%;
-    /* min-width: 25.5rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
     color: grey;
+    margin: 0rem .25rem 0rem .25rem;
+    /* min-width: 25.5rem; */
+    max-height: 2.70rem;
+    width: 10.5%;
 }
 
 .recipeIngredients__ingredient {
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
     /* color:rgb(242, 132, 130); */
     /* margin-bottom: 1.25rem;
     margin-top: 1.5rem; */
     color: lightgrey;
-    font-size: 20px;
-    min-height: 2.5rem;
-    width: 33%;
-    min-width: 25rem;
-    background-color: white;
-    border: rgb(247, 237, 226) solid 1px;
-    border-radius: 10px;
-    margin: 0rem .25rem 0rem .25rem;
     color: grey;
+    font-size: 20px;
+    margin: 0rem .25rem 0rem .25rem;
+    min-height: 2.5rem;
+    min-width: 25rem;
+    width: 33%;
 }
 
 .recipeIngredients__brand {
-    /* color:rgb(242, 132, 130); */
-    /* margin-bottom: 1.25rem;
-    margin-top: 1.5rem; */
-    /* color: lightgrey; */
-    font-size: 20px;
-    min-height: 2.5rem;
-    width: 33%;
-    /* min-width: 25rem; */
     background-color: white;
     border: rgb(247, 237, 226) solid 1px;
     border-radius: 10px;
-    margin: 0rem .25rem 0rem .25rem;
+    /* color:rgb(242, 132, 130); */
+    /* color: lightgrey; */
     color: grey;
+    font-size: 20px;
+    margin: 0rem .25rem 0rem .25rem;
+    /* margin-bottom: 1.25rem;
+    margin-top: 1.5rem; */
+    min-height: 2.5rem;
+    width: 33%;
+    /* min-width: 25rem; */
 }
 
 .iconSelect {
     background-color: white;
-    width: 100%;
+    border-radius: 10px;
     /* min-width: 22.5rem; */
-    padding: 1rem;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
     margin: 5rem .25rem 1rem .25rem;
+    padding: 1rem;
+    width: 100%;
 }
 
 .addAnotherIngredientButton {
-    color:rgb(132, 165, 157);
+    background-color: lavenderblush;
     border:rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    color:rgb(132, 165, 157);
+    font-size: 20px;
+    margin-top: 1rem;
     min-width: 25%;
     min-height: 3rem;
-    border-radius: 10px;
-    background-color: lavenderblush;
-    font-size: 20px;
     /* font-weight: bold; */
-    margin-top: 1rem;
 }
 
 .instructionsTextarea {
-    width: 99%;
-    min-height: 20rem;
-    margin: 2rem 0rem 2rem 0rem;
     border: rgb(247, 237, 226) solid 1px;
-    font-family: 'Quicksand', sans-serif;
-    color: grey;
     border-radius: 10px;
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+    margin: 2rem 0rem 2rem 0rem;
+    min-height: 20rem;
+    width: 99%;
 }
 
 .selectRecipeButton {
-    color:rgb(132, 165, 157);
-    border:rgb(247, 237, 226) solid 1px;
-    min-width: 25%;
-    min-height: 3rem;
-    border-radius: 10px;
     background-color: lavenderblush;
+    border:rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    color:rgb(132, 165, 157);
     font-size: 20px;
     /* font-weight: bold; */
+    min-width: 25%;
+    min-height: 3rem;
 }
 
 button:hover {
@@ -624,9 +623,9 @@ button:hover {
 /* Footer Section */
 
 footer {
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
 }
 
 
@@ -671,20 +670,20 @@ footer {
 /* Recipe Pages */
 
 .homeNav {
-    display: flex;
-    justify-content: center;
-    /* float: right; */
-    position: fixed;
-    top: 11.5rem;
-    left: 0rem;
-    padding: 1rem;
-    text-transform: uppercase;
     background-color: white;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    color: rgb(132, 165, 157);
+    display: flex;
+    /* float: right; */
     font-size: 20px;
     font-weight: bold;
-    color: rgb(132, 165, 157);
+    justify-content: center;
+    left: 0rem;
+    padding: 1rem;
+    position: fixed;
+    text-transform: uppercase;
+    text-orientation: upright;
+    top: 11.5rem;
+    writing-mode: vertical-rl;
 }
 
 
@@ -709,15 +708,15 @@ footer {
 /* Breakfast Page */
 
 .breakfastHead {
-    background-image: url("images/1.2.png");
     background-color: black;
-    height: 17rem;
+    background-image: url("images/1.2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -4rem;
+    height: 17rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: -4rem;
 }
 
 .recipeList {
@@ -760,15 +759,15 @@ footer {
 /* Lunch Page*/
 
 .lunchHead {
-    background-image: url("images/2.2.png");
     background-color: black;
-    height: 17rem;
+    background-image: url("images/2.2.png");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -4rem;
+    background-repeat: no-repeat;
+    height: 17rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: -4rem;
 }
 
 
@@ -790,15 +789,15 @@ footer {
 
 /* Snack Page */
 .snackHead {
-    background-image: url("images/3.2.png");
     background-color: black;
-    height: 17rem;
+    background-image: url("images/3.2.png");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -4rem;
+    background-repeat: no-repeat;
+    height: 17rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: -4rem;
 }
 
 
@@ -823,15 +822,15 @@ footer {
 /* Dinner Page */
 
 .dinnerHead {
-    background-image: url("images/4.2.png");
     background-color: black;
-    height: 17rem;
+    background-image: url("images/4.2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -4rem;
+    height: 17rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: -4rem;
 }
 
 
@@ -851,13 +850,13 @@ footer {
 
 /* Dessert Page */
 .dessertHead {
-    background-image: url("images/5.2.png");
     background-color: black;
-    height: 17rem;
+    background-image: url("images/5.2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -4rem;
+    height: 17rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: -4rem;
 }
