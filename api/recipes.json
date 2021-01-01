@@ -1,0 +1,29 @@
+{
+    "recipes": [
+        {
+            "id": 0,
+            "recipeName": "Fruit Pizza",
+            "mealType": "Breakfast",
+            "vegan": "false",
+            "vegetarian": "true",
+            "whole30": "false",
+            "500 Calories": "false",
+            "ingredients": [
+                {
+                    "quantity": "1",
+                    "unit": "cup",
+                    "name": "Strawberries",
+                    "brand": "home-grown"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "cup",
+                    "name": "Blueberries",
+                    "brand": "home-grown"
+                }
+                ],
+            "instructions": "Extensive string"
+        }
+        
+    ]
+}
