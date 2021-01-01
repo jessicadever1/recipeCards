@@ -720,22 +720,41 @@ footer {
 }
 
 .recipeList {
-    background-color: white;
+    
     display: flex;
+    flex-direction: column;
     margin: 2rem 2rem 2rem 3.5rem;
     padding: 1rem;
 }
 .recipeCard {
+    background-color: white;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.recipeCardContent {
+    padding-left: 2rem;
 }
 
 .recipeName {
     padding: 1rem 0rem 0rem 1rem;
 }
 
-.fruitPizzaImg {
+.recipeMainImg {
     max-width: 25%;
+}
+
+.toggleRecipeButton {
+    background-color: lavenderblush;
+    border:rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    color:rgb(132, 165, 157);
+    font-size: 20px;
+    /* font-weight: bold; */
+    min-width: 5.5rem;
+    min-height: 2.5rem;
 }
 
 

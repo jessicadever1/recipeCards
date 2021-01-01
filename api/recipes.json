@@ -2,6 +2,7 @@
     "recipes": [
         {
             "id": 0,
+            "imgName": "fruitPizza",
             "recipeName": "Fruit Pizza",
             "mealType": "Breakfast",
             "vegan": "false",
@@ -27,6 +28,96 @@
                 }
                 ],
             "instructions": "Extensive string"
+        },
+
+        {
+            "id": 1,
+            "imgName": "wildRice",
+            "recipeName": "Wild Rice Soup",
+            "mealType": "Dinner",
+            "vegan": "false",
+            "vegetarian": "true",
+            "whole30": "false",
+            "500 Calories": "true",
+            "prepTime": "20 minutes",
+            "cookTime": "45 minutes",
+            "totalTime": "1 hour & 5 minutes",
+            "totalCalories": 443,
+            "ingredients": [
+                {
+                    "quantity": "3",
+                    "unit": "cup",
+                    "name": "Vegetable Stock",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "name": "Wild Rice",
+                    "brand": "Rice-A-Roni"
+                },
+                {
+                    "quantity": "4",
+                    "unit": "oz",
+                    "name": "Mushrooms",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "2",
+                    "unit": "teaspoons",
+                    "name": "Minced Garlic",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "",
+                    "name": "Carrot",
+                    "brand": "Grimmway Farms"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "",
+                    "name": "Celary",
+                    "brand": "Dole"
+                },
+                {
+                    "quantity": "1/2",
+                    "unit": "",
+                    "name": "Sweet Potato",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "1/2",
+                    "unit": "",
+                    "name": "Yellow Onion",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "3/4",
+                    "unit": "Tablespoon",
+                    "name": "Old Bay seasoning",
+                    "brand": "Old Bay"
+                },
+                {
+                    "quantity": "7",
+                    "unit": "oz",
+                    "name": "Coconut Milk",
+                    "brand": "Taste of Thai"
+                },
+                {
+                    "quantity": "1",
+                    "unit": "cup",
+                    "name": "kale",
+                    "brand": "Great Value"
+                },
+                {
+                    "quantity": "3",
+                    "unit": "Tablespoons",
+                    "name": "Shredded Parmesan Cheese",
+                    "brand": "Great Value"
+                } 
+                ],
+            "instructions": "Combine all ingredients, except cheese and coconut milk, on medium heat. Increase to medium high heat to bring to boil. Reduce to simmer for 45 minutes. Add coconut milk and parm cheese. Enjoy!"
         }
         
     ]
