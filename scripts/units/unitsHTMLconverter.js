@@ -1,6 +1,6 @@
 export const units = () => {
     return `
-        <select class="recipeIngredients__unit" type="text" placeholder="Unit">
+        <select id="unitSelected" class="recipeIngredients__unit" type="text" placeholder="Unit">
             <option value="0">Unit</option>
             <option value="1">teaspoon</option>
             <option value="2">tablespoon</option>

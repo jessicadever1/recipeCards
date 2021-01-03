@@ -5,10 +5,10 @@ HTML show up on the page.
 
 export const recipeForm = (placeholder) => {
     return `
-    <h3 class="mealSelectTitle">Select a meal</h3>
-    <select class="mealSelect">
-        <option value="0" class="breakfastSelect">  Please select a meal...</option>
-        <option value="1" class="breakfastSelect">Breakfast</option>
+    <label for="mealSelect"><h3 class="mealSelectTitle">Select a meal</h3>
+    <select class="mealSelect" id="mealSelect">
+        <option value="0" class="select">  Please select a meal...</option>
+        <option value="1" id="breakfastSelect">Breakfast</option>
         <option value="2" class="lunchSelect">Lunch</option>
         <option value="3" class="snackSelect">Snack</option>
         <option value="4" class="dinnerSelect">Dinner</option>

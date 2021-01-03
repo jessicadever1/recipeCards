@@ -35,7 +35,7 @@ export const recipeListComponent = () => {
 //         const calorieCount = document.querySelector("#calorieCount").value
 //         const totalTime = document.querySelector("#totalTime").value
 
-//         const newRecipeLogged = {
+//         const Logged = {
 //             recipeName: recipeName,
 //             calorieCount: calorieCount,
 //             totalTime: totalTime
