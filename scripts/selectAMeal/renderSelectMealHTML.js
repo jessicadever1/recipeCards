@@ -1,8 +1,8 @@
-import { recipeForm } from './mealSelectHTMLconverter.js'
+// import { recipeForm } from './mealSelectHTMLconverter.js'
 
-const contentElement = document.querySelector(".recipeTypeDiv")
-const HTML = recipeForm()
+// const contentElement = document.querySelector(".recipeTypeDiv")
+// const HTML = recipeForm()
 
-export const render = () => {
-    contentElement.innerHTML = HTML;
-}
+// export const render = () => {
+//     contentElement.innerHTML = HTML;
+// }

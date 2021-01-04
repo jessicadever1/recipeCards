@@ -9,7 +9,7 @@ export const lunchRecipeListComponent = () => {
     getRecipes().then( () => {
         let recipes = copyOfRecipes()
         for (const recipe of recipes) {
-            if (recipe.mealType === "Lunch") {
+            if (recipe.mealType === "Lunch" || recipe.mealType === "Dinner") {
             lunchRecipeCards.push(lunchRecipeHTMLConverter(recipe))
         }}
         contentElement.innerHTML += lunchRecipeCards.join("")

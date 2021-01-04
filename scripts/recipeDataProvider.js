@@ -12,14 +12,18 @@ export const getRecipes = () => {
         })
 }
 
-// export const saveRecipe = (newRecipe) => {
-//     fetch("http://localhost:8088/recipes",{
-//         method: "POST",
-//         headers: {
-//             "Content-Type": "application/json"
-//         },
-//         body: JSON.stringify(newRecipe)
-//     })
-//         .then(getRecipes(newRecipe))
-//         .then(dispatchStateChangeEvent(newRecipe))
-// }
+const dispatchStateChangeEvent = () => {
+    eventHub.dispatchEvent(new CustomEvent("recipeStateChanged"))
+} 
+
+export const saveRecipe = (newRecipe) => {
+    fetch("http://localhost:8088/recipes",{
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newRecipe)
+    })
+        .then(getRecipes)
+        .then(dispatchStateChangeEvent)
+}

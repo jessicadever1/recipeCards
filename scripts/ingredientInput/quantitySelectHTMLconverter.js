@@ -1,6 +1,6 @@
 export const quantityHTML = () => {
     return `
-        <select class="recipeIngredients__quantity" placeholder="quantity">
+        <select id="recipeIngredientsQuantity" class="recipeIngredients__quantity" placeholder="quantity">
             <option value="0">Quantity<option>
             <option value="2">&#8539;<option>
             <option value="3">&#188;<option>
