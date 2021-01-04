@@ -24,6 +24,6 @@ export const saveRecipe = (newRecipe) => {
         },
         body: JSON.stringify(newRecipe)
     })
-        .then(getRecipes(newRecipe))
-        .then(dispatchStateChangeEvent(newRecipe))
+        .then(getRecipes)
+        .then(dispatchStateChangeEvent)
 }

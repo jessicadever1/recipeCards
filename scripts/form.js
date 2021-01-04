@@ -15,7 +15,15 @@ const renderForm = () => {
                                     <input type="text" id="recipeName" class="recipeNameInput"></input>
                                 </div>
                                 <div class="recipeTypeDiv">
-                                    
+                                <label for="mealSelect"><h3 class="mealSelectTitle">Select a meal</h3>
+                                <select class="mealSelect" id="mealSelect">
+                                    <option value="0" class="select">  Please select a meal...</option>
+                                    <option value="1" id="breakfastSelect">Breakfast</option>
+                                    <option value="2" class="lunchSelect">Lunch</option>
+                                    <option value="3" class="snackSelect">Snack</option>
+                                    <option value="4" class="dinnerSelect">Dinner</option>
+                                    <option value="5" class="dessertSelect">Dessert</option> 
+                                </select>
                                 </div>
                                     
                             </div>    
@@ -43,22 +51,35 @@ const renderForm = () => {
                         <div class="recipeIngredientsDiv">
                             <h3 class="recipeIngredients">Ingredients</h3>
                             <div class="ingredientInputs">
-                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity"></select>
-                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
+                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity" id="recipeIngredientsQuantity">
+                                    <option value="0">Quantity<option>
+                                    <option value="2">&#8539;<option>
+                                    <option value="3">&#188;<option>
+                                    <option value="4">&#8531;<option>
+                                    <option value="5">&#189;<option>
+                                    <option value="6">&#8532;<option>
+                                    <option value="7">&#190;<option>
+                                    <option value="8">1<option>
+                                    <option value="10">1 &#8539;<option>
+                                    <option value="11">1 &#188;<option>
+                                    <option value="12">1 &#8531;<option>
+                                    <option value="13">1 &#189;<option>
+                                    <option value="14">1 &#8532;<option>
+                                    <option value="15">1 &#190;<option>
+                                    <option value="16">2<option>
+                            </select>
+                            <select id="unitSelected" class="recipeIngredients__unit" type="text" placeholder="Unit">Unit
+                                    <option value="0">Unit</option>
+                                    <option value="1">teaspoon</option>
+                                    <option value="2">tablespoon</option>
+                                    <option value="3">cup</option>
+                                    <option value="4">oz</option>
+                                    <option value="5">pint</option>
+                                    <option value="6">quart</option>
+                                    <option value="7">gallon</option>
+                            </select>
                                 <input id="ingredientInput" class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
                                 <input id="ingredientBrand" class="recipeIngredients__brand" type="text" placeholder="Brand">
-                            </div>
-                            <div class="ingredientInputs">
-                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity">Quantity</select>
-                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
-                                <input class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
-                                <input class="recipeIngredients__brand" type="text" placeholder="Brand">
-                            </div>
-                            <div class="ingredientInputs">
-                                <select class="recipeIngredients__quantity" type="text" placeholder="quantity">Quantity</select>
-                                <select class="recipeIngredients__unit" type="text" placeholder="Unit">Unit</select>
-                                <input class="recipeIngredients__ingredient" type="text" placeholder="Ingredient Name">
-                                <input class="recipeIngredients__brand" type="text" placeholder="Brand">
                             </div>
                         </div>
                         <div class="addAnotherIngredientDiv">

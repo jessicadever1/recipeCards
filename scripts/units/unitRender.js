@@ -1,8 +1,8 @@
-import {units} from './unitsHTMLconverter.js'
+// import {units} from './unitsHTMLconverter.js'
 
-const contentElement = document.querySelector(".recipeIngredients__unit")
-const HTML = units();
+// const contentElement = document.querySelector(".recipeIngredients__unit")
+// const HTML = units();
 
-export const renderUnits = () => {
-    contentElement.innerHTML = HTML
-}
+// export const renderUnits = () => {
+//     contentElement.innerHTML = HTML
+// }
