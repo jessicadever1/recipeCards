@@ -239,16 +239,7 @@
         }
       ],
       "instructions": "Chill medium size bowl for five minutes. Add the whipping cream to the bowl and mix for about five more minutes until cream is thick and frothy. Add powdered sugar, cocoa powder and vanilla extract. Whip together until smooth and evenly mixed. Serve immediately or refrigerate!"
-    },
-    {
-      "recipeName": "Creamy Parm",
-      "mealType": "2",
-      "quantity": "2",
-      "unit": "3",
-      "name": "Heavy Whipping Cream",
-      "brand": "Great Value",
-      "instructions": "Go to Pinterest. It's all there.",
-      "id": 5
     }
+    
   ]
 }

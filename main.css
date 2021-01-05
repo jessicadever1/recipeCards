@@ -46,12 +46,19 @@ h2 {
     padding: 2rem 2rem 0rem 2rem;
 }
 
+h3 {
+    padding: 0;
+}
 .subtitle {
     display: flex;
     font-weight: bold;
     justify-content: center;
     margin-bottom: 2.5rem;
     margin-left: 1rem;
+}
+
+::placeholder {
+    color: lightgray;
 }
 
 
@@ -394,6 +401,7 @@ input {
     display: flex;
     justify-content: right;
     margin-bottom: .5rem;
+    padding-left: 0;
 }
 
 .recipeNameDiv {
@@ -438,6 +446,36 @@ input {
     min-height: 2.70rem;
     /* min-width: 25.5rem; */
     width: 97%;
+}
+
+.calAndServeInput {
+    display: flex;
+    justify-content: center;
+}
+
+.caloriesDiv, .servingsDiv{
+    margin: 1rem 0rem 0.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: left;
+}
+
+.calAndServe {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.caloriesInput, .servingsInput {
+    background-color: white;
+    border: rgb(247, 237, 226) solid 1px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 20px;
+    margin-right: 1rem;
+    min-height: 2.5rem; 
 }
 
 .topRightOfRecipeForm {
@@ -507,7 +545,6 @@ input {
     /* color:rgb(242, 132, 130); */
     /* margin-bottom: 1.25rem;
     margin-top: 1.5rem; */
-    color: lightgrey;
     color: grey;
     font-size: 20px;
     margin: 0rem .25rem 0rem .25rem;
@@ -739,7 +776,7 @@ footer {
     padding-left: 2rem;
 }
 
-.recipeName {
+.breakfastRecipeName {
     padding: 1rem 0rem 0rem 1rem;
 }
 
