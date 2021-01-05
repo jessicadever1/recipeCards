@@ -1,4 +1,5 @@
 let recipes = []
+const eventHub = document.querySelector(".containsMainDiv")
 
 export const copyOfRecipes = () => {
     return recipes.slice()
